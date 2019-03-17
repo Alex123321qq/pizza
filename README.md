@@ -137,7 +137,7 @@
     - Apache 2.4;
     - phpMyAdmin.
 - для NoSQL 
-    - (заполнить)
+    - MongoDB.
 - для MS SQL Server
     - Microsoft SQL Server Management Srudio 17.
 - для PostgreSQL
