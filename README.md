@@ -106,7 +106,7 @@
 
 ##_3.Подробная ER-диаграмма с описанием полей таблиц и их типов данных для каждой БД._
 
-[Диаграмма](https://1.bp.blogspot.com/-EDLur8K8KJ8/XI5V5LIRZjI/AAAAAAAABwo/fjuJDKMwduw0U3vDNKUAm6sH8WEAKzrtgCLcBGAs/s640/%25D0%25B4%25D0%25B8%25D0%25B0%25D0%25B3%25D1%2580%25D0%25BC%25D0%25BC%25D0%25B0.jpg)
+[Диаграмма](https://3.bp.blogspot.com/-mlA9Dy7dVHQ/XI5bwgkPDHI/AAAAAAAABw4/ZcK-SaYzNtg9akDrDHjwKB2MXJICnBdXQCLcBGAs/s640/2.jpg)
 
 ##_4.Перечень основных операций с базами данных._
 
@@ -123,6 +123,11 @@
 - Гребенкина Мария - MySQL;
 - Колесникова Вероника - MS SQL Server;
 - Раюшкин Эдуард - PostgreSQL.
+
+##_6.Архитектура приложения на верхнем уровне (простейшая диаграмма классов) с описанием основных модулей приложения._
+Работа сервиса показана с помощью use case диаграммы.
+
+[Диаграмма](https://4.bp.blogspot.com/-5fBYvHwJsck/XI5bwWKnG5I/AAAAAAAABw0/yplVa2mzkSEQsI9kRA7oMj2YBjs68Mw0ACLcBGAs/s400/1.jpg)
 
 ##_7.Описание предлагаемых для использования инструментов, сторонних библиотек и программных средств, языка программирования._
 Предполагаемые инструменты для реализации сайта:
