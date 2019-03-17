@@ -22,6 +22,80 @@
 
 В каждой субд будет хранится различная информация об одном из ресторанов: меню, покупатель, заказ, сотрудники ресторана, о ресторане.
 
+##Первичные макеты сервиса:
+
+[Главная страница](https://2.bp.blogspot.com/-63ERjqZclJk/XI5MOPqCOlI/AAAAAAAABvs/RIP7R2J2hTcvKWMok9XAt_AaOGbcC3-nACLcBGAs/s400/%25D0%25B3%25D0%25BB%25D0%25B0%25D0%25B2%25D0%25BD%25D0%25B0%25D1%258F%2B%25D1%2581%25D1%2582%25D1%2580%25D0%25B0%25D0%25BD%25D0%25B8%25D1%2586%25D0%25B0.jpg)
+
+[Главная страница с выбором ресторанов](https://2.bp.blogspot.com/-fz9beI2GsVw/XI5MOJYT9iI/AAAAAAAABv0/nXckJBnhSScifAsNtsYscDC7JvAotXCjACLcBGAs/s400/%25D0%25B3%25D0%25BB%25D0%25B0%25D0%25B2%25D0%25BD%25D0%25B0%25D1%258F%2B%25D1%2581%25D1%2582%25D1%2580%25D0%25B0%25D0%25BD%25D0%25B8%25D1%2586%25D0%25B0%2B%25D1%2581%2B%25D0%25B2%25D1%258B%25D0%25B1%25D0%25BE%25D1%2580%25D0%25BE%25D0%25BC.jpg)
+
+[Меню ресторана](https://1.bp.blogspot.com/-nV1903SE-MQ/XI5MPcr7jJI/AAAAAAAABwA/TEZmIuGeft8GYOv5bKetn3ZEXh2ipiFIwCLcBGAs/s400/%25D0%25BC%25D0%25B5%25D0%25BD%25D1%258E%2B%25D1%2580%25D0%25B5%25D1%2581%25D1%2582%25D0%25B8%25D0%25BA%25D0%25B0.jpg)
+
+[Корзина](https://2.bp.blogspot.com/-OiKUs2Nvdw8/XI5MPFBXOXI/AAAAAAAABv8/PlsLqwajpV0mKUS1aLQDpOnKZoTUSTEMQCLcBGAs/s400/%25D0%25BA%25D0%25BE%25D1%2580%25D0%25B7%25D0%25B8%25D0%25BD%25D0%25B0.jpg)
+
+[Сделать заказ](https://2.bp.blogspot.com/-xthfoJzfFV8/XI5MOAdPgBI/AAAAAAAABvw/0EZEXrjkIIs7KdQyc_fMkwKE61Az6jglQCLcBGAs/s400/%25D0%25B7%25D0%25B0%25D0%25BA%25D0%25B0%25D0%25B7%25D0%25B0%25D1%2582%25D1%258C.jpg)
+
+[Отследить заказ 1](https://4.bp.blogspot.com/-HyBKq6MHkp8/XI5MQMJwwwI/AAAAAAAABwI/Ly0vbMDDYaEYwmz_Em8N_K02nnS_U5BtACLcBGAs/s400/%25D0%25BE%25D1%2582%25D1%2581%25D0%25BB%25D0%25B5%25D0%25B4%25D0%25B8%25D1%2582%25D1%258C.jpg)
+
+[Отследить заказ 2](https://3.bp.blogspot.com/-hhi9NksiNT8/XI5MPLiC7II/AAAAAAAABv4/R1PLQpo6BQE9sllyFYv1K-5-C5xi1EPJwCLcBGAs/s400/%25D0%25B8%25D0%25BD%25D1%2584%25D0%25B0%2B%25D0%25BF%25D1%2580%25D0%25BE%2B%25D0%25B7%25D0%25B0%25D0%25BA%25D0%25B0%25D0%25B7.jpg)
+
+[Оценить курьера 1](https://1.bp.blogspot.com/-RvnzyhudsqQ/XI5MQQubSxI/AAAAAAAABwM/LdZZeOg9XHwrZXPRp6nE_UInA5uS49VBwCLcBGAs/s400/%25D0%25BE%25D1%2586%25D0%25B5%25D0%25BD%25D0%25B8%25D1%2582%25D1%258C%2B%25D0%25BA%25D1%2583%25D1%2580%25D1%258C%25D0%25B5%25D1%2580%25D0%25B0.jpg)
+
+[Оценить курьера 2](https://2.bp.blogspot.com/-oxfvfOWoGc4/XI5MP-9PN5I/AAAAAAAABwE/ABYBhQEHx5QpJ20BFD73poadHAfaf521gCLcBGAs/s400/%25D0%25BE%25D1%2582%25D0%25B7%25D1%258B%25D0%25B2.jpg)
+
+##Описание хранимых данных в каждой СУБД будет представлять из себя таблицы со следующим содержанием:
+
+- меню
+
+| Наименование  | Тип           | Размер        | Диапазон значений |
+| ------------- | ------------- | ------------- | ----------------- |
+| Блюдо         | String        | 255           | A..zА..я          |
+| Цена          | Int           | 4             | 0..9              |
+| PK_id         | Int           | 5             | 0..9              |
+
+- покупатель
+
+| Наименование  | Тип           | Размер        | Диапазон значений |
+| ------------- | ------------- | ------------- | ----------------- |
+| ФИО           | String        | 255           | A..zА..я          |
+| Адрес         | String        | 255           | A..zA..я0..9      |
+| Телефон       | Int           | 11            | 0..9              |
+| PK_id         | Int           | 5             | 0..9              |
+| FK_id_order   | Int           | 5             | 0..9              |
+
+- заказ
+
+| Наименование     | Тип           | Размер        | Диапазон значений                   |
+| -------------    | ------------- | ------------- | ------------------------------------|
+| Заказанные блюда | Int           | 1             | 0..9                                |
+| Дата             | date          | 10            | 0001-01-01 - 9999-12-31             |
+| Время            | time          | 13            | 00:00:00.0000000 - 23:59:59.9999999 |
+| Общая стоимость  | Int           | 6             | 0..9                                |
+| Оценка           | bit           | 1             | 0,1                                 |
+| PK_id            | Int           | 5             | 0..9                                |
+| FK_id_customer   | Int           | 5             | 0..9                                |
+| FK_id_contacts   | Int           | 5             | 0..9                                |
+
+- сотрудники
+
+| Наименование   | Тип           | Размер        | Диапазон значений |
+| -------------- | ------------- | ------------- | ----------------- |
+| ФИО            | String        | 255           | A..zА..я          |
+| Должность      | String        | 255           | A..zА..я          |
+| Оценка         | bit           | 1             | 0, 1              |
+| PK_id          | Int           | 5             | 0..9              |
+| FK_id_contacts | Int           | 5             | 0..9              |
+| FK_id_order    | Int           | 5             | 0..9              |
+
+- контакты ресторана
+
+| Наименование   | Тип           | Размер        | Диапазон значений |
+| -------------- | ------------- | ------------- | ----------------- |
+| Адрес          | String        | 255           | A..zA..я0..9      |
+| Телефон        | Int           | 11            | 0..9              |
+| Название       | String        | 255           | A..zA..я0..9      |
+| PK_id          | Int           | 5             | 0..9              |
+| FK_id_order    | Int           | 5             | 0..9              |
+
 ##_2.Выбранные для использования в приложении СУБД._
 
 Приложение будет реализовано в виде сайта, с использованием следующих СУБД: 
@@ -29,6 +103,10 @@
 - MySQL; 
 - MS SQL Server; 
 - PostgreSQL.
+
+##_3.Подробная ER-диаграмма с описанием полей таблиц и их типов данных для каждой БД._
+
+[Диаграмма](https://1.bp.blogspot.com/-EDLur8K8KJ8/XI5V5LIRZjI/AAAAAAAABwo/fjuJDKMwduw0U3vDNKUAm6sH8WEAKzrtgCLcBGAs/s640/%25D0%25B4%25D0%25B8%25D0%25B0%25D0%25B3%25D1%2580%25D0%25BC%25D0%25BC%25D0%25B0.jpg)
 
 ##_4.Перечень основных операций с базами данных._
 
