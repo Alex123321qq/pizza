@@ -139,7 +139,7 @@
 - для NoSQL 
     - MongoDB.
 - для MS SQL Server
-    - Microsoft SQL Server Management Srudio 17.
+    - Microsoft SQL Server Management Studio 17.
 - для PostgreSQL
     - PostgreSQL - 11.2-1 Windows x86-64
     
