@@ -142,4 +142,6 @@
     - Microsoft SQL Server Management Srudio 17.
 - для PostgreSQL
     - PostgreSQL - 11.2-1 Windows x86-64
+    
+    Хочу проверить как это работает
       
