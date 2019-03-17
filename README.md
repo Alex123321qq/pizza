@@ -56,7 +56,7 @@
 - для NoSQL 
     - (заполнить)
 - для MS SQL Server
-    - (заполнить)
+    - Microsoft SQL Server Management Srudio 17.
 - для PostgreSQL
     - (заполнить)
       
