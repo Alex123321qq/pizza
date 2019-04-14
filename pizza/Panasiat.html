@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Dostavka</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Favicons -->
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Raleway:400,300,700,900" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- Fixed navbar -->
+  <div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        <a class="navbar-brand" href="#">Д<i class="fa fa-circle"></i>ставка</a>
+      </div>
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="active"><a href="index.html">Главная</a></li>
+          <li><a href="about.html">О нас</a></li>
+        </ul>
+      </div>
+      <!--/.nav-collapse -->
+    </div>
+  </div>
+
+  
+  <div id="blue">
+    <div class="container">
+      <div class="row centered">
+        <div class="col-lg-8 col-lg-offset-2">
+          <h4>Выберите блюда</h4>
+          <p></p>
+        </div>
+      </div>
+      <!-- row -->
+    </div>
+    <!-- container -->
+  </div>
+  <!--  bluewrap -->
+ 
+
+<script>
+var d = document;
+var overprace=0;
+function addRow( name , price,  id1)
+  {
+    overprace+=Number.parseInt(price);;
+    var buton = document.getElementById("bat1");
+      // Находим нужную таблицу
+      var tbody = d.getElementById('tab1').getElementsByTagName('TBODY')[0];
+      var flag=0;
+      var stroka=0;
+      var col_strok=tbody.childElementCount;
+
+
+
+    if(col_strok!=0){
+    for(var i=1;i<tbody.childElementCount+1;i++){
+      if(document.getElementById('tab1').rows[i].cells[0].innerText==name){
+        flag=1
+        stroka=i;}}
+    }
+
+
+        if(!flag){
+      // Создаем строку таблицы и добавляем ее
+      var row = d.createElement("TR");
+      tbody.appendChild(row);
+  
+      // Создаем ячейки в вышесозданной строке
+      // и добавляем тх
+      var td1 = d.createElement("TD");
+      var td2 = d.createElement("TD");
+      var td3 = d.createElement("TD");
+  
+      row.appendChild(td1);
+      row.appendChild(td2);
+      row.appendChild(td3);
+  
+      // Наполняем ячейки
+      td1.innerHTML = name;
+      td2.innerHTML = price;
+      td3.innerHTML = 1;
+      buton.innerHTML = "Ваш заказ суммой "+ overprace+ " рублей" +"      Кликните что бы заказать";
+        }
+        else{
+          buton.innerHTML = "Ваш заказ суммой "+ overprace+ " рублей" +"    Кликните что бы заказать";
+          document.getElementById('tab1').rows[stroka].cells[2].innerText++;
+        }
+  
+
+
+  }
+</script>
+ 
+  <div class="col-sm-15 padding-right">
+    <div class="features_items"><!--features_items-->
+      <div class="col-sm-3">
+        <div class="product-image-wrapper">
+          <div class="single-products">
+              <div class="productinfo text-center">
+                <img src="img/sushi/lap_kur.jpg" alt="" />
+                <h2>240 руб</h2>
+                <p>Лапша с курицей</p>
+                <a  onclick="addRow ('Лапша с курицей','240','1')" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Добавить в корзину</a>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="product-image-wrapper">
+          <div class="single-products">
+            <div class="productinfo text-center">
+              <img src="img/sushi/lap_svin.jpg" alt="" />
+              <h2>235 руб</h2>
+              <p>Лапша со свининой</p>
+              <a onclick="addRow ('Лапша со свининой','235','2')" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Добавить в корзину</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="product-image-wrapper">
+          <div class="single-products">
+            <div class="productinfo text-center">
+              <img src="img/sushi/lapsha_krevet.jpg" alt="" />
+              <h2>275 руб</h2>
+              <p>Лапша с креветками</p>
+              <a onclick="addRow ('Лапша с креветками','275','3')" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Добавить в корзину</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="product-image-wrapper">
+          <div class="single-products">
+            <div class="productinfo text-center">
+              <img src="img/sushi/lap_govyad.jpg" alt="" />
+              <h2>255 руб</h2>
+              <p>Лапша с говядиной</p>
+              <a onclick="addRow ('Лапша с говядиной','255','4')" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Добавить в корзину</a>
+            </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="product-image-wrapper">
+              <div class="single-products">
+                <div class="productinfo text-center">
+                  <img src="img/sushi/ris_kur.jpg" alt="" />
+                  <h2>235 руб</h2>
+                  <p>Рис с курицей</p>
+                  <a onclick="addRow ('Рис с курицей','235','5')" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Добавить в корзину</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="product-image-wrapper">
+              <div class="single-products">
+                <div class="productinfo text-center">
+                  <img src="img/sushi/ris_ovosh.jpg" alt="" />
+                  <h2>170 руб</h2>
+                  <p>Рис с овощами</p>
+                  <a onclick="addRow ('Рис с овощами','170','6')" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Добавить в корзину</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="product-image-wrapper">
+              <div class="single-products">
+                <div class="productinfo text-center">
+                  <img src="img/sushi/ris_krevet.jpg" alt="" />
+                  <h2>275 руб</h2>
+                  <p>Рис с креветками</p>
+                  <a onclick="addRow ('Рис с креветками','275','7')" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Добавить в корзину</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="product-image-wrapper">
+              <div class="single-products">
+                <div class="productinfo text-center">
+                  <img src="img/sushi/ris_govyad.jpg" alt="" />
+                  <h2>245 руб</h2>
+                  <p>Рис с говядиной</p>
+                  <a onclick="addRow ('Рис с говядиной','245','8')" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Добавить в корзину</a>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+      </div>
+    </div><!--features_items-->
+
+
+    <div id="dg">
+      <div class="container">
+        <div class="row centered">
+          <h4>Корзина</h4>
+     
+
+          <table id="tab1"  style="margin: auto;" class="table_blur">
+            <thead>
+              <tr>
+                  <th>Название</th>
+                  <th>Цена</th>
+                  <th>Кол-во</th>
+              </tr>
+          </thead>
+          <tbody>
+          </tbody>
+          </table>
+
+          <a href="#"  data-toggle="modal" data-target="#myModal" href="#myModal" id="bat1"class="green">Ваш заказ суммой 0 рублей
+            Кликните что бы заказать</a>
+        </div>
+      </div>
+    </div>
+
+    
+
+
+
+
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+              <h4 class="modal-title" id="myModalLabel">Укажите контакты</h4>
+            </div>
+            <div class="modal-body">
+              <div class="row centered">
+                <p>Работаем 24 часика</p>
+                <p>
+                 адрес такой то<br/> волгоград<br/> 89999999999999999999<br/> spizdil_verstky@gmail.ru
+                </p>
+    
+                <form class="contact-form php-mail-form" role="form" action="contactform/contactform.php" method="POST">
+    
+                  <div class="form-group">
+                    <label for="contact-name">Ваше имя</label>
+                    <input type="name" name="name" class="form-control" id="contact-name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+                    <div class="validate"></div>
+                  </div>
+                  <div class="form-group">
+                    <label for="contact-email">Ваш эмайл</label>
+                    <input type="email" name="email" class="form-control" id="contact-email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email">
+                    <div class="validate"></div>
+                  </div>
+                  <div class="form-group">
+                    <label for="contact-subject">Адрес</label>
+                    <input type="text" name="subject" class="form-control" id="contact-subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject">
+                    <div class="validate"></div>
+                  </div>
+    
+                  <div class="form-group">
+                    <label for="contact-message">Доп сообщение</label>
+                    <textarea class="form-control" name="message" id="contact-message" placeholder="Your Message" rows="5" data-rule="required" data-msg="Please write something for us"></textarea>
+                    <div class="validate"></div>
+                  </div>
+    
+                  <div class="loading"></div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+    
+                  <div class="form-send">
+                    <button type="submit" class="btn btn-large">Заказать</button>
+                  </div>
+    
+                </form>
+              </div>
+            </div>
+          </div>
+          <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+      </div>
+      <!-- /.modal -->s
+
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+  <script src="lib/php-mail-form/validate.js"></script>
+  <script src="lib/chart/chart.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+
+</body>
+</html>
