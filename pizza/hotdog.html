@@ -35,7 +35,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-        <a class="navbar-brand" href="#">Д<i class="fa fa-circle"></i>ставка</a>
+        <a class="navbar-brand" href="index.html">Д<i class="fa fa-circle"></i>ставка</a>
       </div>
       <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav navbar-right">
@@ -119,26 +119,26 @@ function addRow( name , price,  id1)
  
   <div class="col-sm-15 padding-right">
     <div class="features_items"><!--features_items-->
-      <div class="col-sm-3">
+      <div class="col-sm-4">
         <div class="product-image-wrapper">
           <div class="single-products">
               <div class="productinfo text-center">
-                <img src="img/hot.jpg" alt="" />
-                <h2>$56руб</h2>
-                <p>хотдог с 5 сосиськами</p>
-                <a  onclick="addRow ('хотдог','56','1')" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Добавить в корзину</a>
+                <img src="img/sosDOG.png" alt="" />
+                <h2>$320руб</h2>
+                <p> SOS DOG - С тигровыми креветками,соусом тартар и водорослями нори</p>
+                <a  onclick="addRow ('SOS DOG','320','1')" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Добавить в корзину</a>
               </div>
           </div>
         </div>
       </div>
-      <div class="col-sm-3">
+      <div class="col-sm-4">
         <div class="product-image-wrapper">
           <div class="single-products">
             <div class="productinfo text-center">
-              <img src="img/hot.jpg" alt="" />
-              <h2>$56руб</h2>
-              <p>хотдог с 2 сосиськами</p>
-              <a onclick="addRow ('хотдог2','56','2')" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Добавить в корзину</a>
+              <img src="img/pizzaDOG.png" alt="" />
+              <h2>$270руб</h2>
+              <p>PIZZA DOG - с пеперони, моцарелой, орегано и томатным соусом</p>
+              <a onclick="addRow ('PIZZA DOG','270','2')" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Добавить в корзину</a>
             </div>
           </div>
         </div>
@@ -147,27 +147,16 @@ function addRow( name , price,  id1)
         <div class="product-image-wrapper">
           <div class="single-products">
             <div class="productinfo text-center">
-              <img src="img/hot.jpg" alt="" />
-              <h2>$56руб</h2>
-              <p>хотдог без сосиськи</p>
-              <a onclick="addRow ('хотдог3','56','3')" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Добавить в корзину</a>
+              <img src="img/makDOG.png" alt="" />
+              <h2>$290руб</h2>
+              <p>MAC CHEESE DOG - с пастой тортильони, сыром Чеддер, трюфельным маслом и чипсами из бекона</p>
+              <a onclick="addRow ('MAC CHEESE DOG','290','3')" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Добавить в корзину</a>
             </div>
           </div>
         </div>
       </div>
-      <div class="col-sm-3">
-        <div class="product-image-wrapper">
-          <div class="single-products">
-            <div class="productinfo text-center">
-              <img src="img/hot.jpg" alt="" />
-              <h2>$56руб</h2>
-              <p>хотдог с сосиськой</p>
-              <a onclick="addRow ('хотдог4','56','4')" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Добавить в корзину</a>
-            </div>
-            </div>
-          </div>
-        </div>
-      </div>
+
+     
       </div>
     </div><!--features_items-->
 
@@ -210,32 +199,32 @@ function addRow( name , price,  id1)
             </div>
             <div class="modal-body">
               <div class="row centered">
-                <p>Работаем 24 часика</p>
+                <p>Работаем 24 часа</p>
                 <p>
-                 адрес такой то<br/> волгоград<br/> 89999999999999999999<br/> spizdil_verstky@gmail.ru
+                 Адрес - улица Мира 100<br/> Волгоград<br/>Наш контакный номер - 8999999999999<br/> hot-dog@gmail.ru
                 </p>
     
                 <form class="contact-form php-mail-form" role="form" action="contactform/contactform.php" method="POST">
     
                   <div class="form-group">
                     <label for="contact-name">Ваше имя</label>
-                    <input type="name" name="name" class="form-control" id="contact-name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+                    <input type="name" name="name" class="form-control" id="contact-name" placeholder="Андрей" data-rule="minlen:4" data-msg="Введите верные данные">
                     <div class="validate"></div>
                   </div>
                   <div class="form-group">
                     <label for="contact-email">Ваш эмайл</label>
-                    <input type="email" name="email" class="form-control" id="contact-email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email">
+                    <input type="email" name="email" class="form-control" id="contact-email" placeholder="Андрей@майл.ру" data-rule="email" data-msg="Введите верные данные">
                     <div class="validate"></div>
                   </div>
                   <div class="form-group">
                     <label for="contact-subject">Адрес</label>
-                    <input type="text" name="subject" class="form-control" id="contact-subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject">
+                    <input type="text" name="subject" class="form-control" id="contact-subject" placeholder="улица Мира" data-rule="minlen:4" data-msg="Введите верные данные">
                     <div class="validate"></div>
                   </div>
     
                   <div class="form-group">
                     <label for="contact-message">Доп сообщение</label>
-                    <textarea class="form-control" name="message" id="contact-message" placeholder="Your Message" rows="5" data-rule="required" data-msg="Please write something for us"></textarea>
+                    <textarea class="form-control" name="message" id="contact-message" placeholder="Хочу поострее" rows="5" data-rule="required" data-msg="Введите верные данные"></textarea>
                     <div class="validate"></div>
                   </div>
     
