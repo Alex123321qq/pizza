@@ -26,19 +26,19 @@
 
 ![Главная страница с выбором ресторанов](https://2.bp.blogspot.com/-fz9beI2GsVw/XI5MOJYT9iI/AAAAAAAABv0/nXckJBnhSScifAsNtsYscDC7JvAotXCjACLcBGAs/s400/%25D0%25B3%25D0%25BB%25D0%25B0%25D0%25B2%25D0%25BD%25D0%25B0%25D1%258F%2B%25D1%2581%25D1%2582%25D1%2580%25D0%25B0%25D0%25BD%25D0%25B8%25D1%2586%25D0%25B0%2B%25D1%2581%2B%25D0%25B2%25D1%258B%25D0%25B1%25D0%25BE%25D1%2580%25D0%25BE%25D0%25BC.jpg)
 
-[Меню ресторана](https://1.bp.blogspot.com/-nV1903SE-MQ/XI5MPcr7jJI/AAAAAAAABwA/TEZmIuGeft8GYOv5bKetn3ZEXh2ipiFIwCLcBGAs/s400/%25D0%25BC%25D0%25B5%25D0%25BD%25D1%258E%2B%25D1%2580%25D0%25B5%25D1%2581%25D1%2582%25D0%25B8%25D0%25BA%25D0%25B0.jpg)
+![Меню ресторана](https://1.bp.blogspot.com/-nV1903SE-MQ/XI5MPcr7jJI/AAAAAAAABwA/TEZmIuGeft8GYOv5bKetn3ZEXh2ipiFIwCLcBGAs/s400/%25D0%25BC%25D0%25B5%25D0%25BD%25D1%258E%2B%25D1%2580%25D0%25B5%25D1%2581%25D1%2582%25D0%25B8%25D0%25BA%25D0%25B0.jpg)
 
-[Корзина](https://2.bp.blogspot.com/-OiKUs2Nvdw8/XI5MPFBXOXI/AAAAAAAABv8/PlsLqwajpV0mKUS1aLQDpOnKZoTUSTEMQCLcBGAs/s400/%25D0%25BA%25D0%25BE%25D1%2580%25D0%25B7%25D0%25B8%25D0%25BD%25D0%25B0.jpg)
+![Корзина](https://2.bp.blogspot.com/-OiKUs2Nvdw8/XI5MPFBXOXI/AAAAAAAABv8/PlsLqwajpV0mKUS1aLQDpOnKZoTUSTEMQCLcBGAs/s400/%25D0%25BA%25D0%25BE%25D1%2580%25D0%25B7%25D0%25B8%25D0%25BD%25D0%25B0.jpg)
 
 [Сделать заказ](https://2.bp.blogspot.com/-xthfoJzfFV8/XI5MOAdPgBI/AAAAAAAABvw/0EZEXrjkIIs7KdQyc_fMkwKE61Az6jglQCLcBGAs/s400/%25D0%25B7%25D0%25B0%25D0%25BA%25D0%25B0%25D0%25B7%25D0%25B0%25D1%2582%25D1%258C.jpg)
 
 [Отследить заказ 1](https://4.bp.blogspot.com/-HyBKq6MHkp8/XI5MQMJwwwI/AAAAAAAABwI/Ly0vbMDDYaEYwmz_Em8N_K02nnS_U5BtACLcBGAs/s400/%25D0%25BE%25D1%2582%25D1%2581%25D0%25BB%25D0%25B5%25D0%25B4%25D0%25B8%25D1%2582%25D1%258C.jpg)
 
-[Отследить заказ 2](https://3.bp.blogspot.com/-hhi9NksiNT8/XI5MPLiC7II/AAAAAAAABv4/R1PLQpo6BQE9sllyFYv1K-5-C5xi1EPJwCLcBGAs/s400/%25D0%25B8%25D0%25BD%25D1%2584%25D0%25B0%2B%25D0%25BF%25D1%2580%25D0%25BE%2B%25D0%25B7%25D0%25B0%25D0%25BA%25D0%25B0%25D0%25B7.jpg)
+![Отследить заказ 2](https://3.bp.blogspot.com/-hhi9NksiNT8/XI5MPLiC7II/AAAAAAAABv4/R1PLQpo6BQE9sllyFYv1K-5-C5xi1EPJwCLcBGAs/s400/%25D0%25B8%25D0%25BD%25D1%2584%25D0%25B0%2B%25D0%25BF%25D1%2580%25D0%25BE%2B%25D0%25B7%25D0%25B0%25D0%25BA%25D0%25B0%25D0%25B7.jpg)
 
-[Оценить курьера 1](https://1.bp.blogspot.com/-RvnzyhudsqQ/XI5MQQubSxI/AAAAAAAABwM/LdZZeOg9XHwrZXPRp6nE_UInA5uS49VBwCLcBGAs/s400/%25D0%25BE%25D1%2586%25D0%25B5%25D0%25BD%25D0%25B8%25D1%2582%25D1%258C%2B%25D0%25BA%25D1%2583%25D1%2580%25D1%258C%25D0%25B5%25D1%2580%25D0%25B0.jpg)
+![Оценить курьера 1](https://1.bp.blogspot.com/-RvnzyhudsqQ/XI5MQQubSxI/AAAAAAAABwM/LdZZeOg9XHwrZXPRp6nE_UInA5uS49VBwCLcBGAs/s400/%25D0%25BE%25D1%2586%25D0%25B5%25D0%25BD%25D0%25B8%25D1%2582%25D1%258C%2B%25D0%25BA%25D1%2583%25D1%2580%25D1%258C%25D0%25B5%25D1%2580%25D0%25B0.jpg)
 
-[Оценить курьера 2](https://2.bp.blogspot.com/-oxfvfOWoGc4/XI5MP-9PN5I/AAAAAAAABwE/ABYBhQEHx5QpJ20BFD73poadHAfaf521gCLcBGAs/s400/%25D0%25BE%25D1%2582%25D0%25B7%25D1%258B%25D0%25B2.jpg)
+![Оценить курьера 2](https://2.bp.blogspot.com/-oxfvfOWoGc4/XI5MP-9PN5I/AAAAAAAABwE/ABYBhQEHx5QpJ20BFD73poadHAfaf521gCLcBGAs/s400/%25D0%25BE%25D1%2582%25D0%25B7%25D1%258B%25D0%25B2.jpg)
 
 ##Описание хранимых данных в каждой СУБД будет представлять из себя таблицы со следующим содержанием:
 
@@ -116,7 +116,7 @@
 
 ##_3.Подробная ER-диаграмма с описанием полей таблиц и их типов данных для каждой БД._
 
-[Диаграмма]()
+![Диаграмма](https://pp.userapi.com/c851424/v851424746/132ce6/p2ZzqKGnUOA.jpg!)
 
 ##_4.Перечень основных операций с базами данных._
 
@@ -136,7 +136,7 @@
 ##_6.Архитектура приложения на верхнем уровне (простейшая диаграмма классов) с описанием основных модулей приложения._
 Работа сервиса показана с помощью use case диаграммы.
 
-[Диаграмма](https://4.bp.blogspot.com/-5fBYvHwJsck/XI5bwWKnG5I/AAAAAAAABw0/yplVa2mzkSEQsI9kRA7oMj2YBjs68Mw0ACLcBGAs/s400/1.jpg)
+![Диаграмма](https://pp.userapi.com/c849432/v849432703/1a3096/pQecQ8JehyA.jpg)
 
 ##_7.Описание предлагаемых для использования инструментов, сторонних библиотек и программных средств, языка программирования._
 Предполагаемые инструменты для реализации сайта:
@@ -151,6 +151,12 @@
     - Microsoft SQL Server Management Studio 17.
 - для PostgreSQL
     - PostgreSQL - 11.2-1 Windows x86-64
-    
+ 
+##_8.Представление базы данных._
+Диаграмма классов базы данных, аналог которой используется в каждой СУБД.
 
-      
+![Диаграмма](https://pp.userapi.com/c849024/v849024604/1ad4df/UuYoYykF-cg.jpg)
+
+##_9.Конечный интерфейс сервиса._
+Конечный интерфейс сервиса, сделанный, с малейшими ориентировками на первичные макеты.
+
